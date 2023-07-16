@@ -7,7 +7,7 @@ Get-Partition | Where-Object { $_.DiskNumber -eq 5 } | Set-Partition -NewDriveLe
 Get-Partition | Where-Object { $_.DiskNumber -eq 6 } | Set-Partition -NewDriveLetter J
 Get-Partition | Where-Object { $_.DiskNumber -eq 7 } | Set-Partition -NewDriveLetter K
 Get-Partition | Where-Object { $_.DiskNumber -eq 8 } | Set-Partition -NewDriveLetter L
-Get-Partition | Where-Object { $_.DiskNumber -eq 9} | Set-Partition -NewDriveLetter M
+Get-Partition | Where-Object { $_.DiskNumber -eq 9 } | Set-Partition -NewDriveLetter M
 Get-Partition | Where-Object { $_.DiskNumber -eq 10 } | Set-Partition -NewDriveLetter N
 Get-Partition | Where-Object { $_.DiskNumber -eq 11 } | Set-Partition -NewDriveLetter O
 Get-Partition | Where-Object { $_.DiskNumber -eq 12 } | Set-Partition -NewDriveLetter P
