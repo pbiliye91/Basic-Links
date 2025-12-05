@@ -2,7 +2,3 @@ Get-Disk | Where-Object { $_.PartitionStyle -eq 'raw' } | Initialize-Disk -Parti
 Get-Partition | Where-Object { $_.DiskNumber -eq 0 } | Set-Partition -NewDriveLetter F
 Get-Partition | Where-Object { $_.DiskNumber -eq 1 } | Set-Partition -NewDriveLetter G
 Get-Partition | Where-Object { $_.DiskNumber -eq 2 } | Set-Partition -NewDriveLetter H
-
-
-
-testtttttttttt lineeee
